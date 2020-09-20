@@ -1,3 +1,6 @@
+import '@babel/polyfill';
+import './style.css';
+
 window.onload = async function () {
 	const WEATHER_API_KEY = '9d91ab64e7fbfaa8d55e9780ac474230';
 	const REVERSE_API_KEY = '61ac8f7f736d8a';
